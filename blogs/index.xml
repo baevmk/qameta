@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Software Quality | Qameta</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blog on Software Quality | Qameta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2017 22:09:15 +0300</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Allure 2.0-BETA6 released</title>
+      <link>http://localhost:1313/blogs/blog1/</link>
+      <pubDate>Tue, 21 Mar 2017 22:09:15 +0300</pubDate>
+      
+      <guid>http://localhost:1313/blogs/blog1/</guid>
+      <description>It is my pleasure to announce that the Allure 2 beta release 6 is available now. This release contains some cool improvements, such as:
+Categories We replaced old Defects tab with a new one, called Categories. By default, all test errors are split on two categories Unknown Failures and Unknown Errors. The first category contains all failed tests, and the second one contains all tests with broken status.
+To add more categories you can create a file called categories.</description>
+    </item>
+    
+    <item>
+      <title>Allure 2.0-BETA5 released</title>
+      <link>http://localhost:1313/blogs/blog2/</link>
+      <pubDate>Thu, 16 Feb 2017 12:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/blogs/blog2/</guid>
+      <description>Beta 5 is available to download.
+Release contains minor visual changes, such as icons for statuses in tree.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet.</description>
+    </item>
+    
+    <item>
+      <title>Allure 2.0-BETA4 released</title>
+      <link>http://localhost:1313/blogs/blog3/</link>
+      <pubDate>Mon, 06 Feb 2017 12:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/blogs/blog3/</guid>
+      <description>It is my pleasure to announce that the Allure 2 beta release 4 is available now.
+Release contains several bug fixes (including command line for Darwin), some major changes (statuses), and visual improvements.
+First of all, we got rid of pending status. A reason for that was that we realized it&amp;rsquo;s usually hard to determine what is the difference between cancelled and pending statuses, so we decided to use skipped instead of both.</description>
+    </item>
+    
+    <item>
+      <title>Blog4</title>
+      <link>http://localhost:1313/blogs/blog4/</link>
+      <pubDate>Sun, 04 Dec 2016 20:11:24 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blogs/blog4/</guid>
+      <description>#Tset blog
+lorem ipsum autofill doesnt work
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+  </channel>
+</rss>

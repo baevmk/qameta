@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/projects/allure/</loc>
+    <lastmod>2017-12-28T22:50:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/events/</loc>
+    <lastmod>2017-12-04T09:05:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/wtf_3/</loc>
+    <lastmod>2017-12-04T08:49:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/wtf_2/</loc>
+    <lastmod>2017-12-04T08:49:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/wtf_1/</loc>
+    <lastmod>2017-12-04T08:48:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/contact/</loc>
+    <lastmod>2017-12-04T08:47:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/people/baev_dmitrii/</loc>
+    <lastmod>2017-12-04T08:42:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/people/eroshenko_artem/</loc>
+    <lastmod>2017-12-04T08:42:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/people/seliverstov_stas/</loc>
+    <lastmod>2017-12-04T08:42:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blogs/blog1/</loc>
+    <lastmod>2017-03-21T22:09:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blogs/blog2/</loc>
+    <lastmod>2017-02-16T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blogs/blog3/</loc>
+    <lastmod>2017-02-06T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blogs/blog4/</loc>
+    <lastmod>2016-12-04T20:11:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/about/</loc>
+    <lastmod>2017-12-04T09:05:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2017-12-04T09:05:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/allure/</loc>
+    <lastmod>2017-03-21T22:09:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2017-12-04T08:49:14+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2017-03-21T22:09:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2017-12-04T09:05:20+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/dafault/</loc>
+    <lastmod>2017-12-28T22:50:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/</loc>
+    <lastmod>2017-12-04T08:49:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/people/</loc>
+    <lastmod>2017-12-04T08:42:30+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/people/</loc>
+    <lastmod>2017-12-04T08:42:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2017-12-28T22:50:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2017-12-28T22:50:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/release/</loc>
+    <lastmod>2017-03-21T22:09:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/showcase/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/showcase/slide1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/showcase/slide2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/showcase/slide3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2017-12-28T22:50:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2017-03-21T22:09:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

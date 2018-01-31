@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Software Quality | Qameta</title>
+    <link>http://localhost:1313/categories/about/</link>
+    <description>Recent content in About on Software Quality | Qameta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2017 09:05:20 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Events</title>
+      <link>http://localhost:1313/about/events/</link>
+      <pubDate>Mon, 04 Dec 2017 09:05:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/about/events/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/about/contact/</link>
+      <pubDate>Mon, 04 Dec 2017 08:47:49 +0100</pubDate>
+      
+      <guid>http://localhost:1313/about/contact/</guid>
+      <description>Customer support Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity. Please feel free to contact us, our customer service center is working for you 24&amp;frasl;7.</description>
+    </item>
+    
+    <item>
+      <title>Slide1</title>
+      <link>http://localhost:1313/showcase/slide1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/showcase/slide1/</guid>
+      <description>Image test The next generation of Allure Report We solve problems that virtually every company that develops software is facing.</description>
+    </item>
+    
+    <item>
+      <title>Slide2</title>
+      <link>http://localhost:1313/showcase/slide2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/showcase/slide2/</guid>
+      <description>Font-awesome test 
+Allure 2.0-BETA5 released Beta 5 is available to download. Release contains minor visual changes, such as icons for statuses in tree.</description>
+    </item>
+    
+    <item>
+      <title>Slide3</title>
+      <link>http://localhost:1313/showcase/slide3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/showcase/slide3/</guid>
+      <description>Lorem ipsum Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Software Quality | Qameta</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Software Quality | Qameta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Dec 2017 22:50:23 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Allure</title>
+      <link>http://localhost:1313/projects/allure/</link>
+      <pubDate>Thu, 28 Dec 2017 22:50:23 +0100</pubDate>
+      
+      <guid>http://localhost:1313/projects/allure/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla sed quam ac fermentum. Sed auctor nisi non pulvinar posuere. Mauris ac sodales risus. Vestibulum ut aliquam ex, ut sollicitudin nunc. Phasellus tincidunt metus in maximus blandit. Maecenas elementum tortor at nibh blandit, vel eleifend quam accumsan. Nunc mattis nisl sem, in varius justo gravida eu. Praesent sem justo, condimentum sed augue eu, maximus commodo justo. Donec tincidunt dolor at quam laoreet, ullamcorper mattis tortor imperdiet.</description>
+    </item>
+    
+  </channel>
+</rss>

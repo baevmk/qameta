@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<title>Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+
+
+
+
+	<link rel="stylesheet" href="http://localhost:1313/css/flexboxgrid.css">
+	<link rel="stylesheet" href="http://localhost:1313/css/style.css">	
+	<link rel="shortcut icon" href="http://localhost:1313/img/logo.png" />
+</head>
+	<script defer src="http://localhost:1313/js/fontawesome/fontawesome-all.js"></script>
+
+	
+
+<body>
+	
+<header class="main_header">
+	<div class="container">
+		
+		<div class="row middle-xs middle-sm middle-md middle-lg center-xs">
+			
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<img src="img/logo.png" class="header_logo">
+			</div>
+			
+			<div class="col-xs">
+
+				<div class="box">
+					<div class="row nav_row middle-sm middle-md middle-lg center-xs start-sm start-md start-lg">
+						<div class="col-xs">
+							<h1 class="title_main">QAmeta.io</h1>
+						</div>
+						
+						<div class="col-xs">
+							<div class="navbox">
+								<a href="http://localhost:1313" class="link_common link_hover">Home</a>
+							</div>
+							
+								
+									<div class="navbox">
+										<a href="http://localhost:1313/about/" class="link_common link_hover">About</a>
+									</div>
+											
+							
+								
+									<div class="navbox">
+										<a href="http://localhost:1313/blogs/" class="link_common link_hover">Blog</a>
+									</div>
+											
+							
+								
+									<div class="navbox">
+										<a href="http://localhost:1313/faq/" class="link_common link_hover">FAQ</a>
+									</div>
+											
+							
+								
+									<div class="navbox">
+										<a href="http://localhost:1313/people/" class="link_common link_hover">People</a>
+									</div>
+											
+							
+								
+									<div class="navbox">
+										<a href="http://localhost:1313/projects/" class="link_common link_hover">Projects</a>
+									</div>
+											
+							
+											
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="box">
+					<div class="row middle-sm middle-md middle-lg  center-xs start-sm start-md start-lg">
+						<div class="col-xs">
+							<h1 class="common_h2">Software Development and Quality</h1>
+						</div>
+						
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+</header>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					
+					<div>
+						
+							<h1 class="common_h1"><a class="link_common" href="/blogs/blog1/">Allure 2.0-BETA6 released</a></h1>
+							<div class="secondary-text"> 
+
+<p>It is my pleasure to announce that the Allure 2 beta release 6 is <a href="https://bintray.com/qameta/generic/allure2/2.0-BETA6">available now</a>.
+This release contains some cool improvements, such as:</p>
+
+<h3 id="categories">Categories</h3>
+
+<p>We replaced old Defects tab with a new one, called Categories. By default, all test errors
+are split on two categories <strong>Unknown Failures</strong> and <strong>Unknown Errors</strong>. The first category
+contains all failed tests, and the second one contains all tests with broken status.</p>
+
+<p><img src="/img/blog/allure-2.0-beta6/categories-tab.png" alt="Categories" /></p>
+
+<p>To add more categories you can create a file called <code>categories.json</code>, and specify all the
+categories you want to split your tests into.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">[
+  {
+    <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Ignored tests&#34;</span>,
+    <span style="color:#f92672">&#34;messageRegex&#34;</span>: <span style="color:#e6db74">&#34;.*ignored.*&#34;</span>,
+    <span style="color:#f92672">&#34;matchedStatuses&#34;</span>: [ <span style="color:#e6db74">&#34;skipped&#34;</span> ]
+  },
+  {
+    <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Infrastructure problems&#34;</span>,
+    <span style="color:#f92672">&#34;traceRegex&#34;</span>: <span style="color:#e6db74">&#34;.*RuntimeException.*&#34;</span>,
+    <span style="color:#f92672">&#34;matchedStatuses&#34;</span>: [ <span style="color:#e6db74">&#34;broken&#34;</span>, <span style="color:#e6db74">&#34;failed&#34;</span> ]
+  },
+  {
+    <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Outdated tests&#34;</span>,
+    <span style="color:#f92672">&#34;messageRegex&#34;</span>: <span style="color:#e6db74">&#34;.*FileNotFound.*&#34;</span>,
+    <span style="color:#f92672">&#34;matchedStatuses&#34;</span>: [ <span style="color:#e6db74">&#34;broken&#34;</span> ]
+  }
+]</code></pre></div>
+
+<p>Then you&rsquo;ll need to place this file into the folder with tests results and generate the report.</p>
+
+<h3 id="test-owner">Test owner</h3>
+
+<p>Now you can mark your tests with owner label. That will help you to find the person who is
+responsible for that failed test.</p>
+
+<p><img src="/img/blog/allure-2.0-beta6/owner-label.png" alt="Owner label" /></p>
+
+<h3 id="improved-timeline">Improved Timeline</h3>
+
+<p>As you may know Timeline was pretty much unusable for a huge amount of tests. In the latest releases we added
+a brush that can help you solve that problem, and know we are …</p> </div>
+						
+							<h1 class="common_h1"><a class="link_common" href="/blogs/blog2/">Allure 2.0-BETA5 released</a></h1>
+							<div class="secondary-text"> <p>Beta 5 is available to <a href="https://bintray.com/qameta/generic/allure2/2.0-BETA5">download</a>.</p>
+
+<p>Release contains minor visual changes, such as icons for statuses in tree.</p>
+
+<p><img src="/img/blog/allure-2.0-beta5/tree-icons.png" alt="Tree icons" /></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh. Ut risus mauris, lacinia ac elit non, posuere hendrerit urna. Duis ac condimentum lorem. Suspendisse feugiat cursus lorem, eu efficitur justo. Vestibulum augue magna, tempus eget tellus vitae, tincidunt mollis ex. Nullam suscipit auctor velit sed lacinia. Integer scelerisque lorem non mauris vestibulum elementum. Duis in hendrerit felis.</p>
+
+<p>Nulla sit amet lorem quis ligula sodales sollicitudin at non eros. Nam imperdiet felis a metus condimentum, eget aliquam eros commodo. Phasellus posuere vel massa at tristique. Maecenas augue massa, blandit vitae bibendum quis, consequat eu felis. Praesent congue mollis odio vel fringilla. Nunc cursus ut magna sit amet pharetra. Proin pharetra, dui eget rutrum suscipit, odio augue iaculis enim, id tristique sapien odio at augue. Duis fringilla mi a nisi egestas, quis elementum lorem mollis. Nam venenatis felis ex, vitae mattis nisi …</p> </div>
+						
+							<h1 class="common_h1"><a class="link_common" href="/blogs/blog3/">Allure 2.0-BETA4 released</a></h1>
+							<div class="secondary-text"> <p>It is my pleasure to announce that the Allure 2 beta release 4 is <a href="https://bintray.com/qameta/generic/allure2/2.0-BETA4">available now</a>.</p>
+
+<p>Release contains several bug fixes (including command line for Darwin),
+some major changes (statuses), and visual improvements.</p>
+
+<p>First of all, we got rid of <code>pending</code> status. A reason for that was that we
+realized it&rsquo;s usually hard to determine what is the difference between <code>cancelled</code>
+and <code>pending</code> statuses, so we decided to use <code>skipped</code> instead of both.
+Also Allure now has support of <code>unknown</code> status - this status means that something
+went wrong, and Allure can&rsquo;t determine real test&rsquo;s status. Though to be honest,
+you should never expect to see it in your report (at least in a perfect world).</p>
+
+<p>Furthermore, this release introduces <code>flaky</code> tests. As for now, adapters don&rsquo;t
+support this feature yet, the only way to use it, marking a test case as <code>flaky</code>,
+is to add to test case a label <code>status_details</code> with a value <code>flaky</code>.</p>
+
+<p><img src="/img/blog/allure-2.0-beta4/group-flaky.png" alt="Flaky tests" /></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh. Ut risus mauris, lacinia ac elit non, posuere hendrerit urna. …</p> </div>
+						
+							<h1 class="common_h1"><a class="link_common" href="/blogs/blog4/">Blog4</a></h1>
+							<div class="secondary-text"> <p>#Tset blog</p>
+
+<p>lorem ipsum  autofill doesnt work</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh. Ut risus mauris, lacinia ac elit non, posuere hendrerit urna. Duis ac condimentum lorem. Suspendisse feugiat cursus lorem, eu efficitur justo. Vestibulum augue magna, tempus eget tellus vitae, tincidunt mollis ex. Nullam suscipit auctor velit sed lacinia. Integer scelerisque lorem non mauris vestibulum elementum. Duis in hendrerit felis.</p>
+
+<p>Nulla sit amet lorem quis ligula sodales sollicitudin at non eros. Nam imperdiet felis a metus condimentum, eget aliquam eros commodo. Phasellus posuere vel massa at tristique. Maecenas augue massa, blandit vitae bibendum quis, consequat eu felis. Praesent congue mollis odio vel fringilla. Nunc cursus ut magna sit amet pharetra. Proin pharetra, dui eget rutrum suscipit, odio augue iaculis enim, id tristique sapien odio at augue. Duis fringilla mi a nisi egestas, quis elementum lorem mollis. Nam venenatis felis ex, vitae mattis nisi sodales id. Nulla elit justo, accumsan non velit sit amet, …</p> </div>
+						
+					</div>
+				</div>				
+			</div>			
+		</div>
+	</section>
+	
+	
+
+<footer class="main_footer">
+
+
+	
+	
+	
+	
+	
+
+	<div class="container">
+		<div class="row middle-xs middle-sm middle-md middle-lg center-xs start-sm start-md start-lg">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="box">
+					<div class="row">
+						<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 center-xs center-sm center-md center-lg">
+							<h1 class="common_icon fas fa-thumbs-up"></h1>
+						</div>
+						<div class="col-xs-11 col-sm-11 col-md-5 col-lg-5">
+							<h1 class="common_h2"></h1>
+						</div>
+					</div>
+					
+					<div class="row">						
+						<div class="col-xs">						
+							<a href="  " class="common_text github_hover fab fa-github"></a>
+						</div>
+						<div class="col-xs">
+							<a href="  " class="common_text facebook_hover fab fa-facebook-f"></a>
+						</div>
+						<div class="col-xs">
+							<a href="  " class="common_text twitter_hover fab fa-twitter"></a>
+						</div>
+						<div class="col-xs">
+							<a href="  " class="common_text googleplus_hover fab fa-google-plus-g"></a>
+						</div>
+						<div class="col-xs">
+							<a href="  " class="common_text youtube_hover fab fa-youtube"></a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="box">
+					<div class="row">
+						<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 center-xs center-sm center-md center-lg">
+							<h1 class="common_icon fas fa-link"></h1>
+						</div>
+						<div class="col-xs-11 col-sm-11 col-md-5 col-lg-5">
+							<h1 class="common_h2"></h1>
+						</div>
+					</div>
+					
+					
+											
+					<div class="row middle-xs middle-sm middle-md middle-lg">
+						<div class="col-xs">
+							<div class="navbox_footer">
+								<a href="" class="link_common link_hover">Home</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>						
+			
+			</div>					
+		</div>
+		
+		<div class="row row_copyright center-xs center-sm center-md center-lg middle-xs bottom-sm bottom-md bottom-lg">
+
+			
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="common_text">QAmeta.io &copy 2018</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

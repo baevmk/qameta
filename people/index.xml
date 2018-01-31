@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on Software Quality | Qameta</title>
+    <link>http://localhost:1313/people/</link>
+    <description>Recent content in People on Software Quality | Qameta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2017 08:42:30 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/people/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Baev Dmitrii</title>
+      <link>http://localhost:1313/people/baev_dmitrii/</link>
+      <pubDate>Mon, 04 Dec 2017 08:42:30 +0100</pubDate>
+      
+      <guid>http://localhost:1313/people/baev_dmitrii/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+    <item>
+      <title>Eroshenko Artem</title>
+      <link>http://localhost:1313/people/eroshenko_artem/</link>
+      <pubDate>Mon, 04 Dec 2017 08:42:28 +0100</pubDate>
+      
+      <guid>http://localhost:1313/people/eroshenko_artem/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+    <item>
+      <title>Seliverstov Stas</title>
+      <link>http://localhost:1313/people/seliverstov_stas/</link>
+      <pubDate>Mon, 04 Dec 2017 08:42:25 +0100</pubDate>
+      
+      <guid>http://localhost:1313/people/seliverstov_stas/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+  </channel>
+</rss>

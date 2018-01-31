@@ -1,0 +1,283 @@
+/*
+
+*/
+
+body{
+	font-family: 'Rubik', sans-serif;	
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+
+    background-color: #fff;
+
+	/*background: #353b6e; */
+}
+
+img{
+	width:100%;
+
+
+}
+
+
+/*###########################################################################*/
+.main_header{
+	margin: 0;
+	padding: 0;		
+	border-bottom: 2px solid #3E6EFF ;
+}
+
+
+/*#################### HEADER LOGO ###############################*/
+.header_logo{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	float: center;
+	width: 96px;
+
+}
+
+.projects_slider{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	border-bottom: 2px solid #3E6EFF;
+}
+
+.project_row{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+/*###########################################################################*/
+
+.contact_row{
+
+	padding: 32px;
+}
+
+
+
+/*###########################################################################*/
+
+.container{
+	margin: auto;
+
+}
+
+ /* Text style */
+
+/* #################### */
+/* Allure style */
+.allure_row{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.allure_logo{
+	width:80%;
+}
+
+
+.allure_title{
+	font-family: 'Rubik', sans-serif;
+	font-size:48px;
+	color: #000;
+}
+
+.allure_hover:hover{	
+	color: #3E6EFF;	/* Second purple color Hover color  */
+	border-bottom: 2px solid #3E6EFF;
+}
+.allure_subtitle{
+	font-size:24px;
+	color: #333;
+}
+
+
+/* #################### */
+
+
+
+.title_main{
+	font-size:48px;
+	color: #333;
+}
+
+
+.primary_h1{
+	color:#333; 
+	font-size: 32px;
+}
+
+.primary_h2{
+	color:#333; 
+	font-size: 24px;	
+}
+
+.common_h2{
+	color:#333; 
+	font-size: 24px;
+}
+
+.navbox{
+	font-family: 'Roboto', sans-serif;
+	text-transform:uppercase;
+	text-decoration: none;
+	color:#333;
+	display:inline;
+	padding-right: 16px;
+	list-style: none;
+}
+
+.navbox_footer{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color:#333;
+	display:inline;
+	padding-right: 14px;
+	list-style: none;
+}
+
+
+ /* Hovered elements */
+
+.button_hover{
+	padding: 8px;
+	border: 2px solid #333;
+	color: #333;
+}
+
+.button_hover:hover{
+	padding: 8px;
+	color: #333;
+	border: 2px solid #3E6EFF;
+
+}
+
+
+.link_hover:hover{ /* span */
+	color: #000;	/* Second purple color Hover color  */	
+	border-bottom: 2px solid #3E6EFF;	/* Second purple color Hover color  */
+	padding-bottom: 2px;
+}
+
+.icon_hover:hover{ /* span */
+	color: #555;	/* Second purple color Hover color  */	
+}
+
+
+.common_text{
+	color:#333; /*Common gray text */
+
+}
+
+.button{
+	background: #444; /* Secondary coral headers or links */
+	padding: 0.5em 1em;
+	color: #eee;
+	border: 0;
+	font-size: 16px;
+	opacity: 1;	
+}
+
+.button:hover{
+	background: #555;
+	color: #fff;
+}
+/* ########################### */
+/* ----- PROJECTS ELEMENTS ----- */
+
+.project_slider{
+
+}
+
+
+/* ########################### */
+/* ----- rowblogs ELEMENTS ----- */
+
+
+/* ########################### */
+/* ----- FOOTER ELEMENTS ----- */
+
+.main_footer{
+	border-top: 2px solid #3E6EFF;
+	background: #fff;
+	padding-bottom: 32px;
+	padding-top: 32px;
+}
+
+.footer_logo{
+	margin: 8px;
+	width: 40%;
+	border: none;
+
+}
+
+.logo_box{
+	height: 100px;
+}
+
+.row_copyright{
+	margin: 32px;
+}
+
+.brand_box{
+	padding-top: 16px;
+}
+
+/* ########################### */
+/* ----- CONTENT FORMATS ----- */
+h1{
+	color:#333; 
+	font-size: 32px;
+}
+
+h2, h3, h4{
+	color:#333; 
+	font-size: 24px;
+}
+
+a{	
+	text-decoration: none;
+	color:#3E6EFF;	
+	list-style: none;
+}
+
+a:hover{ /* span */
+	color: #3E6EFF;	/* Second purple color Hover color  */	
+	border-bottom: 2px solid #3E6EFF;	/* Second purple color Hover color  */
+	
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+	padding-right: 16px;
+	list-style: square;
+}
+
+ul{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color:#333;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:#333; /*Secondary gray text */
+}
+
+
+/* -----end content formats ----- */
+/* ############################## */
+
+.common_icon{
+	color:#3E6EFF; /* White color for h1 */
+	font-size: 32px;
+}
+
+.small_icon{
+	color:#3E6EFF; /* White color for h1 */
+	font-size: 24px;
+}
+

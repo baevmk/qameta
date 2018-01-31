@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FAQ on Software Quality | Qameta</title>
+    <link>http://localhost:1313/faq/</link>
+    <description>Recent content in FAQ on Software Quality | Qameta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2017 08:49:14 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wtf 3</title>
+      <link>http://localhost:1313/faq/wtf_3/</link>
+      <pubDate>Mon, 04 Dec 2017 08:49:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/faq/wtf_3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+    <item>
+      <title>Wtf 2</title>
+      <link>http://localhost:1313/faq/wtf_2/</link>
+      <pubDate>Mon, 04 Dec 2017 08:49:09 +0100</pubDate>
+      
+      <guid>http://localhost:1313/faq/wtf_2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+    <item>
+      <title>Wtf 1</title>
+      <link>http://localhost:1313/faq/wtf_1/</link>
+      <pubDate>Mon, 04 Dec 2017 08:48:59 +0100</pubDate>
+      
+      <guid>http://localhost:1313/faq/wtf_1/</guid>
+      <description>WTF 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel ante luctus, placerat leo sed, congue leo. Aliquam vel odio vulputate, ornare metus vel, tempor orci. Nam euismod turpis eget rhoncus ultrices. Vivamus tortor risus, eleifend in mollis in, tincidunt ut sapien. Cras cursus orci et nulla dignissim pulvinar. Pellentesque elementum nunc eros, vel lobortis arcu finibus sit amet. Pellentesque scelerisque, turpis eget finibus aliquet, neque neque suscipit diam, pretium semper turpis arcu non nibh.</description>
+    </item>
+    
+  </channel>
+</rss>
